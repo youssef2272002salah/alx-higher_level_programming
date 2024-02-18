@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
-
+"""
+Script that takes in the name of a state as an argument and lists
+all cities of that state, using the database
+"""
 import MySQLdb
 from sys import argv
 if __name__ == '__main__':
