@@ -10,7 +10,11 @@ Base = declarative_base()
 
 class State(Base):
     """
-    Create the Class State
+    state class that inherits from Base
+
+    Attributes:
+        id: Id of states
+        name: Name of the states
     """
     __tablename__ = 'states'
     id = Column('id', Integer, primary_key=True)
